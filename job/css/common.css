@@ -1,0 +1,120 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+img { border:none; }
+img{display: inline-block;}
+ul, li{ list-style:none; }
+body { font-family:"微软雅黑","Arial";}
+a{text-decoration:none;}
+input{
+    outline: none;
+    border: none;
+}
+
+.container{
+    width: 640px;
+    height: 920px;
+    margin:20px auto;
+    background-color: pink;
+    -webkit-box-shadow: 2px 2px 5px 2px rgba(0,0,0,.3);
+    -moz-box-shadow:  2px 2px 5px 2px rgba(0,0,0,.3);
+    box-shadow:  2px 2px 5px 2px rgba(0,0,0,.3);
+    position: relative;
+}
+.top{
+    height: 86px;
+    background-color: #e4366b;
+    border-top: 1px solid #636363;
+    border-bottom: 1px solid #282828;
+    line-height: 86px;
+    text-align: center;
+    position: relative;
+    font-size: 38px;
+    color: #ffffff;
+}
+.top a{
+    display: inline-block;
+    line-height: 86px;
+}
+.back{
+    position: absolute;
+    top:29px;
+    left: 21px;
+    width: 51px;
+    height: 34px;
+    background: url("../images/back.png") no-repeat center;
+}
+.top a span{
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+}
+.top a img{
+    vertical-align: middle;
+}
+.search{
+    height: 72px;
+    background-color: #52525a;
+    border-top: 1px solid #636363;
+    border-bottom: 1px solid #282828;
+    padding-left:28px;
+    padding-top:15px;
+}
+.search-input{
+    height: 56px;
+    background-color: #fff;
+    width: 530px;
+    border-radius: 28px;
+    padding-left: 60px;
+    position: relative;
+}
+.search-input input{
+    border: none;
+}
+.search-input .txt{
+    padding-left: 12px;
+    width: 490px;
+    height: 54px;
+    font-size: 22px;
+    color: #949398;
+}
+.search-input .sub{
+    position: absolute;
+    top:0;
+    left: 26px;
+    background:url("../images/search.png") no-repeat left center ;
+    width: 36px;
+    height: 56px;
+}
+
+.nav{
+    height: 96px;
+    border-top: 1px solid #636363;
+    background-color: #484850;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.nav li{
+    float: left;
+    width: 128px;
+    height: 88px;
+    text-align: center;
+    padding-top: 8px;
+    position: relative;
+}
+.nav li span{
+    color:#fff;
+    font-size: 24px;
+    display: block;
+}
+.nav li p{
+    border-top: 5px solid #e4366b;
+    width: 128px;
+    height: 0;
+    left: 0;
+    top:-2px;
+    position: absolute;
+    display: none;
+}
+.nav li.hover p{
+    display: block;
+}

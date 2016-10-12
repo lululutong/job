@@ -1,0 +1,23 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+img { border:none; }
+img{display: block;}
+ul, li{ list-style:none; }
+body { font-family:"微软雅黑","Arial"; font-size: 14px}
+a{text-decoration:none;}
+input{
+    outline: none;
+    border: none;
+}
+
+/*@media all and (max-width: 640px){*/
+
+/*}*/
+/*@media all and (max-width: 980px) and (min-width:641px) {*/
+
+/*}*/
+/*@media all and (max-width: 1250px) and (min-width:981px) {*/
+
+/*}*/
+/*@media all and (min-width: 1251px){*/
+
+/*}*/

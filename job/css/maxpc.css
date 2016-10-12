@@ -1,0 +1,348 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+img { border:none; }
+img{display: block;}
+ul, li{ list-style:none; }
+body { font-family:"微软雅黑","Arial"; font-size: 14px}
+a{text-decoration:none;}
+input{
+    outline: none;
+    border: none;
+}
+
+.top{
+    max-width: 1160px;
+    height:auto;
+    margin: 0 auto;
+    padding-top:25px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.top-right{
+    width: 60%;
+}
+.top-right-href{
+    display: flex;
+    justify-content: flex-end;
+}
+.top-right-href a{
+    margin: 0 5px;
+    font-size: 14px;
+    color: #666;
+}
+.top-right-href a:hover{
+    color: #009635;
+}
+.top-right-search{
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-top: 14px;
+}
+.search{
+    border:1px solid #ccc;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.search input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 10px;
+    width: 82%;
+}
+.search button{
+    width: 60px;
+    border: none;
+    background-color: #329610;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "微软雅黑";
+}
+.nav-back{
+    width: 100%;
+    background-color: #439f22;
+}
+.nav{
+    max-width: 1160px;
+    margin:0 auto;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li{
+    float: left;
+    padding:7px 0;
+}
+.nav ul li a{
+    padding:0 35px;
+    color: #fff;
+    display: inline-block;
+    line-height: 35px;
+}
+.nav ul li+li{
+    margin-left: 5px;
+}
+.nav ul li.hover{
+    background-color: #0b8301;
+}
+.nav ul li:last-child{
+    display: none;
+}
+/*----pic-----*/
+.pic{
+    width: 100%;
+    position: relative;
+}
+.img{
+    display: block;
+}
+.img img,.img1 img{
+    width: 100%;
+    height: auto;
+}
+.img1{
+    display: none;
+}
+
+.btn-left,.btn-right{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    top:50%;
+    margin-top: -20px;
+    display: none;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-family: "宋体";
+    color: #cccccc;
+    font-weight: bold;
+}
+.btn-left{
+    left: 10px;
+}
+.btn-right{
+    right: 10px;
+}
+.btn-left.active,.btn-right.active{
+    display: block;
+    background-color: rgb(0,0,0);
+    opacity: .7;
+}
+.btn-left.hover,.btn-right.hover{
+    display: block;
+    background-color: rgb(0,0,0);
+    opacity: .3;
+}
+
+.controls{
+    position: absolute;
+    right: 6px;
+    bottom: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+.controls li{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #d4d4d3;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.5)
+}
+.controls li+li{
+    margin-left: 12px;
+}
+.controls li.active{
+    border: 1px solid #d9d5d2;
+    background: rgba(255,255,255,0.9);
+}
+.controls li.hover{
+    background: rgba(255,255,255,0.7)
+}
+
+.row{
+    max-width: 1180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin: 70px auto 90px auto;
+    height: auto;
+}
+
+.row .tit{
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+}
+
+.row .desc{
+    margin-top: 10px;
+    color: #999;
+    font-size: 18px;
+    text-align: center;
+}
+
+.row-list{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.row-list li{
+    width: 33.3333333%;
+}
+.row-list li+li{
+    margin-left: 24px;
+}
+.row-list li .img-box{
+    width: 100%;
+}
+.row-list li .img-box img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    display: block;
+}
+.row-list .good-name{
+    font-size: 20px;
+    text-align:center;
+    display: block;
+    width: 100%;
+    color: #000;
+    padding-bottom: 12px;
+}
+.row-list .good-desc{
+    width: 100%;
+    color: #666;
+    line-height: 22px;
+    text-align: center;
+    display: block;
+}
+
+.news-back{
+    width: 100%;
+    background: url("../images/bg.jpg")no-repeat center;
+}
+.news{
+    max-width: 1160px;
+    height: auto;
+    margin: 10px auto;
+    box-sizing: border-box;
+    padding-top:64px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.news-left{
+    width: 50%;
+    height: auto;
+    margin-right: 40px;
+    border-bottom: 1px dashed #cccccc;
+}
+.news-right{
+    width: 50%;
+    height:auto;
+}
+.news .tit{
+    line-height: 52px;
+    font-size: 24px;
+    color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+.content{
+    line-height: 22px;
+    font-size: 12px;
+    color: #ffffff;
+    text-indent: 18px;
+    padding-bottom: 10px;
+}
+
+.news-left img{
+    width: 100%;
+    height: auto;
+}
+.news-right dl{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+}
+.news-right dl dt{
+    width: 25%;
+    margin-right: 15px;
+}
+.news-right dl dt img{
+    width: 100%;
+    height: auto;
+}
+.news-right dl dd{
+    width: 75%;
+    padding-right: 9px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.news-right ul li{
+    line-height: 26px;
+    font-size: 12px;
+    color: #cccccc;
+    border-bottom: 1px dashed #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.news-right ul li a{
+    color: #dfffbf;
+    position: relative;
+    padding-left: 12px;
+}
+.news-right ul li a:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border: 2px solid #f29600;
+    position: absolute;
+    left: 0;
+    top:50%;
+    margin-top: -2px;
+}
+.bottom{
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    background-color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.bottom p{
+    font-size: 14px;
+    color: #444;
+    line-height: 40px;
+}
+.bottom span{
+    line-height: 22px;
+    font-size: 12px;
+    color: #888888;
+    text-align: center;
+}
+
+.bottom span a{
+    color: #888888;
+}
+
+.bottom .p1{
+    display: none;
+}
+
+.good-desc:hover{
+    color: #009635;
+}

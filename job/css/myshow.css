@@ -1,0 +1,59 @@
+.myshow-list{
+    height: 733px;
+    border-top: 1px solid #636363;
+    border-bottom: 1px solid #282828;
+    overflow: hidden;
+}
+
+.myshow-list li{
+    height: 200px;
+    border-bottom: 1px solid #aaaaaa;
+    padding-top: 30px;
+    padding-left: 33px;
+    background-color: #ffffff;
+}
+.myshow-list li+li{
+    border-top: 1px solid #cbcbcb;
+}
+.myshow-img{
+    float: left;
+}
+.myshow-img img{
+    border: 1px solid #bababa;
+}
+.myshow-goods-information {
+    float: left;
+    width: 361px;
+    padding-left: 24px;
+    position: relative;
+}
+.myshow-goods-information p{
+    font-size: 28px;
+    color: #333333;
+}
+.hudong{
+    margin-left: -12px;
+    line-height: 2em;
+}
+.price span{
+    color: #e63569;
+    font-size: 24px;
+}
+.myshow-goods-information .discount{
+    font-size: 24px;
+    line-height: 58px;
+}
+.myshow-goods-information .discount del{
+    font-size: 18px;
+    color: #bbbbbb;
+    padding-left: 27px;
+}
+.add-shopcart{
+    position: absolute;
+    width: 118px;
+    height: 52px;
+    background:url("../images/shopcart.png") no-repeat left top;
+    border-radius: 9px;
+    right: 0;
+    top:114px;
+}

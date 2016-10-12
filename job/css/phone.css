@@ -1,0 +1,346 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+img { border:none; }
+img{display: block;}
+ul, li{ list-style:none; }
+body { font-family:"微软雅黑","Arial"; font-size: 14px}
+a{text-decoration:none;}
+input{
+    outline: none;
+    border: none;
+}
+
+.top{
+    height:auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap:wrap ;
+    padding:25px 10px 15px 10px;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.top-right{
+    width: 100%;
+}
+.top-right-href{
+    display: flex;
+    justify-content: center;
+}
+.top-right-href a{
+    margin: 0 5px;
+    font-size: 14px;
+    color: #666;
+}
+.top-right-href a:hover{
+    color: #009635;
+}
+.top-right-search{
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-top: 14px;
+    width:100%;
+}
+.search{
+    border:1px solid #ccc;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 10px;
+    width: 92%;
+}
+.search button{
+    width: 60px;
+    border: none;
+    background-color: #329610;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "微软雅黑";
+}
+
+.nav-back{
+    width: 100%;
+    background-color: #0b8301;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #0b8301;
+    position: relative;
+}
+
+.nav ul li{
+    width: 100%;
+    max-width: 767px;
+    background-color: #fff;
+}
+.nav ul li a{
+    padding:0 10px;
+    color: #666;
+    display: inline-block;
+    line-height: 35px;
+    width: 100%;
+}
+
+.nav ul li.hover{
+    background-color: #0b8301;
+}
+.nav ul li.hover a{
+    color: #fff;
+}
+.nav ul li{
+    display: none;
+}
+.nav ul li:first-child{
+    display: block;
+}
+
+.nav ul:before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 6px;
+    background: url("../images/jian.png") no-repeat center;
+    top:50%;
+    margin-top:-3px;
+    right:11px;
+}
+
+/*------pic--------*/
+.pic{
+    width: 100%;
+    position: relative;
+}
+.img{
+    display: none;
+}
+.img img,.img1 img{
+    width: 100%;
+    height: auto;
+}
+.img1{
+    display: block;
+}
+
+.btn-left{
+    left: 10px;
+    display: none;
+}
+.btn-right{
+    right: 10px;
+    display: none;
+}
+.controls{
+    position: absolute;
+    right: 6px;
+    bottom: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+.controls li{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #d4d4d3;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.5)
+}
+.controls li+li{
+    margin-left: 12px;
+}
+.controls li.active{
+    border: 1px solid #d9d5d2;
+    background: rgba(255,255,255,0.9);
+}
+.controls li.hover{
+    background: rgba(255,255,255,0.7)
+}
+
+.row{
+    max-width: 1180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin: 70px auto 20px auto;
+    height: auto;
+}
+
+.row .tit{
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+}
+
+.row .desc{
+    margin-top: 10px;
+    color: #999;
+    font-size: 18px;
+    text-align: center;
+}
+.row-list{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+.row-list li{
+    width: 100%;
+}
+.row-list li .img-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.row-list li .img-box img{
+    height: auto;
+    padding-bottom: 20px;
+    display: block;
+}
+.row-list .good-name{
+    font-size: 20px;
+    text-align:center;
+    display: block;
+    width: 100%;
+    color: #000;
+    padding-bottom: 12px;
+}
+.row-list .good-desc{
+    width: 100%;
+    color: #666;
+    line-height: 22px;
+    text-align: center;
+    display: block;
+}
+
+.news-back{
+    width: 100%;
+    background: url("../images/bg.jpg") repeat center;
+    border-bottom: 1px dashed #cccccc;
+}
+.news{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding:64px 10px 30px 10px;
+}
+
+.news-left{
+    width: 100%;
+    height: auto;
+    margin-right: 40px;
+}
+.news-right{
+    width: 100%;
+    height:auto;
+}
+.news .tit{
+    line-height: 52px;
+    font-size: 24px;
+    color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+.content{
+    line-height: 22px;
+    font-size: 12px;
+    color: #ffffff;
+    text-indent: 18px;
+    padding-bottom: 10px;
+}
+
+.news-left img{
+    width: 100%;
+    height: auto;
+}
+.news-right dl{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+}
+.news-right dl dt{
+    width: 25%;
+    margin-right: 15px;
+}
+.news-right dl dt img{
+    width: 100%;
+    height: auto;
+}
+.news-right dl dd{
+    width: 75%;
+    padding-right: 9px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.news-right ul li{
+    line-height: 26px;
+    font-size: 12px;
+    color: #cccccc;
+    border-bottom: 1px dashed #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.news-right ul li a{
+    color: #dfffbf;
+    position: relative;
+    padding-left: 12px;
+}
+.news-right ul li a:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border: 2px solid #f29600;
+    position: absolute;
+    left: 0;
+    top:50%;
+    margin-top: -2px;
+}
+.bottom{
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    background-color: #ffffff;
+    padding-bottom: 40px;
+}
+.bottom p{
+    font-size: 14px;
+    color: #444;
+    line-height: 40px;
+}
+.bottom span{
+    line-height: 22px;
+    font-size: 12px;
+    color: #888888;
+    text-align: center;
+}
+
+.bottom span a{
+    color: #888888;
+}
+
+.bottom .p{
+    display: none;
+}
+.bottom .p1{
+    display: block;
+    line-height: 28px;
+}
+
+.good-desc:hover{
+    color: #009635;
+}
