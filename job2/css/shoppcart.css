@@ -1,0 +1,78 @@
+.container {
+  width: 10rem;
+  font-family: "Microsoft YaHei"; }
+  .container .settlebar {
+    position: fixed;
+    left: 0;
+    top: 1.32813rem;
+    width: 10rem;
+    height: 1.375rem;
+    border-top: 0.01563rem solid #9a9fa5;
+    color: #ffffff;
+    font-size: 0.4375rem;
+    background-color: #747474;
+    line-height: 1.32813rem; }
+    .container .settlebar p {
+      padding-left: 0.39063rem; }
+      .container .settlebar p span {
+        color: #ab1a1d; }
+  .container .shoppcart-list {
+    padding-top: 2.71875rem; }
+    .container .shoppcart-list li + li {
+      border-top: 0.01563rem solid #cbcbcb; }
+    .container .shoppcart-list .shoppcart-goods {
+      padding-top: 0.42188rem;
+      padding-left: 0.51563rem;
+      padding-bottom: 0.46875rem;
+      border-bottom: 0.01563rem solid #aaaaaa;
+      position: relative;
+      display: flex;
+      justify-content: flex-start; }
+      .container .shoppcart-list .shoppcart-goods img {
+        border: 0.01563rem solid #bababa;
+        width: 2.6875rem;
+        height: 2.6875rem; }
+      .container .shoppcart-list .shoppcart-goods .del {
+        position: absolute;
+        right: 0.35938rem;
+        top: 0.53125rem; }
+        .container .shoppcart-list .shoppcart-goods .del img {
+          border: none;
+          width: 0.40625rem;
+          height: 0.5rem; }
+      .container .shoppcart-list .shoppcart-goods .goods-content {
+        padding-left: 0.39063rem;
+        color: #333333; }
+        .container .shoppcart-list .shoppcart-goods .goods-content .goods-name {
+          width: 4.375rem;
+          font-size: 0.45313rem;
+          line-height: 0.625rem; }
+        .container .shoppcart-list .shoppcart-goods .goods-content .good-price {
+          font-size: 0.46875rem;
+          line-height: 0.65625rem; }
+          .container .shoppcart-list .shoppcart-goods .goods-content .good-price span {
+            color: #ac1a1b; }
+        .container .shoppcart-list .shoppcart-goods .goods-content .goods-count {
+          font-size: 0.46875rem;
+          display: flex;
+          justify-content: flex-start;
+          line-height: 0.67188rem; }
+          .container .shoppcart-list .shoppcart-goods .goods-content .goods-count span {
+            vertical-align: bottom;
+            border-radius: 0.09375rem;
+            border: none; }
+            .container .shoppcart-list .shoppcart-goods .goods-content .goods-count span img {
+              border: none;
+              width: 0.89063rem;
+              height: 0.65625rem; }
+          .container .shoppcart-list .shoppcart-goods .goods-content .goods-count input {
+            width: 1.1875rem;
+            height: 0.67188rem;
+            border-radius: 0.09375rem;
+            background-color: #ffffff;
+            color: #323232;
+            font-size: 0.4375rem;
+            text-align: center;
+            margin: 0 0.23438rem; }
+
+/*# sourceMappingURL=shoppcart.css.map */

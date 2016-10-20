@@ -703,6 +703,6 @@ html, body {
     .box-5 p:nth-of-type(14) img {
       width: 100%; }
     .box-5 p:nth-of-type(14) img {
-      animation: ciro 1s linear 8s 1; }
+      animation: ciro 1.2s ease-out 7.2s 1; }
 
 /*# sourceMappingURL=app.css.map */

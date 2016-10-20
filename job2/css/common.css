@@ -1,0 +1,63 @@
+.top {
+  width: 10rem;
+  height: 1.3125rem;
+  background-color: #af1d1d;
+  border-top: 0.01563rem solid #c92b2a;
+  text-align: center;
+  font-size: 0.5625rem;
+  font-family: "Microsoft YaHei";
+  color: #ffffff;
+  line-height: 1.3125rem;
+  position: fixed;
+  left: 0;
+  top: 0; }
+  .top .btn {
+    width: 1.625rem;
+    height: 0.84375rem;
+    position: absolute;
+    right: 0.3125rem;
+    top: 0.20313rem;
+    border-radius: 0.25rem; }
+    .top .btn img {
+      width: 1.625rem;
+      height: 0.84375rem; }
+  .top span {
+    position: absolute;
+    left: 0.5rem;
+    font-size: 1rem;
+    top: 0;
+    font-family: "SimSun"; }
+
+#bottom .nav {
+  height: 1.5rem;
+  border-top: 0.01563rem solid #636363;
+  background-color: #484850;
+  position: fixed;
+  left: 0;
+  bottom: 0; }
+  #bottom .nav li {
+    float: left;
+    width: 2rem;
+    height: 1.375rem;
+    text-align: center;
+    padding-top: 0.125rem;
+    position: relative; }
+    #bottom .nav li img {
+      width: 0.75rem;
+      height: 0.78125rem; }
+    #bottom .nav li span {
+      color: #fff;
+      font-size: 0.375rem;
+      display: block; }
+    #bottom .nav li p {
+      border-top: 0.07813rem solid #e4366b;
+      width: 2rem;
+      height: 0;
+      left: 0;
+      top: -0.03125rem;
+      position: absolute;
+      display: none; }
+    #bottom .nav li.hover p {
+      display: block; }
+
+/*# sourceMappingURL=common.css.map */

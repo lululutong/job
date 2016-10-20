@@ -1,0 +1,76 @@
+$fontSize:64;
+@function pxRem($px){
+  @return $px/$fontSize + rem;
+}
+.top {
+  width: pxRem(640);
+  height: pxRem(84);
+  background-color: #af1d1d;
+  border-top: pxRem(1) solid #c92b2a;
+  text-align: center;
+  font-size: pxRem(36);
+  font-family: "Microsoft YaHei";
+  color: #ffffff;
+  line-height: pxRem(84);
+  position: fixed;
+  left: 0;
+  top: 0;
+  .btn {
+    width: pxRem(104);
+    height: pxRem(54);
+    position: absolute;
+    right: pxRem(20);
+    top: pxRem(13);
+    border-radius: pxRem(16);
+    img{
+      width: pxRem(104);
+      height: pxRem(54);
+    }
+  }
+  span{
+    position: absolute;
+    left: pxRem(32);
+    font-size: pxRem(64);
+    top:0;
+    font-family: "SimSun";
+  };
+}
+#bottom{
+  .nav {
+    height: pxRem(96);
+    border-top: pxRem(1) solid #636363;
+    background-color: #484850;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    li {
+      float: left;
+      width: pxRem(128);
+      height: pxRem(88);
+      text-align: center;
+      padding-top: pxRem(8);
+      position: relative;
+      img{
+        width: pxRem(48);
+        height: pxRem(50);
+      }
+      span {
+        color: #fff;
+        font-size: pxRem(24);
+        display: block;
+      }
+      p {
+        border-top: pxRem(5) solid #e4366b;
+        width: pxRem(128);
+        height: 0;
+        left: 0;
+        top: pxRem(-2);
+        position: absolute;
+        display: none;
+      }
+      &.hover p {
+        display: block;
+      }
+    }
+  }
+}

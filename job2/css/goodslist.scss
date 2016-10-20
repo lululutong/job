@@ -1,0 +1,86 @@
+
+
+$fontSize:64;
+@function pxRem($px){
+  @return $px/$fontSize + rem;
+}
+
+.container {
+  width: pxRem(640);
+  font-family: "Microsoft YaHei";
+
+  .item {
+    width: pxRem(597);
+    height: pxRem(57);
+    background-color: #9a9fa5;
+    padding-left: pxRem(43);
+    position: fixed;
+    left: 0;
+    top: pxRem(86);
+    .itemtb {
+      height: pxRem(44);
+      position: relative;
+      width: pxRem(597);
+      padding-top: pxRem(13);
+      img{
+        width: 100%;
+        height: pxRem(31);
+      }
+      &:after {
+        position: absolute;
+        content: "";
+        border-top: pxRem(7) solid rgba(0, 0, 0, 0);
+        border-left: pxRem(7) solid rgba(0, 0, 0, 0);
+        border-right: pxRem(7) solid rgba(0, 0, 0, 0);
+        border-bottom: pxRem(7) solid #ffffff;
+        left: pxRem(6);
+        bottom: 0;
+      }
+    }
+  }
+  .list {
+    width: pxRem(640);
+    border-bottom: pxRem(1) solid #282828;
+    padding-top: pxRem(186);
+    overflow: hidden;
+    li {
+      padding: 0 pxRem(37);
+      width: pxRem(246);
+      margin-bottom: pxRem(26);
+      float: left;
+      img {
+        -webkit-box-shadow: 0 0 pxRem(5) pxRem(2) rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 0 pxRem(5) pxRem(2) rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 pxRem(5) pxRem(2) rgba(0, 0, 0, 0.2);
+        margin-bottom: pxRem(10);
+        width: pxRem(244);
+        height: pxRem(244);
+      }
+      .cloth-name {
+        color: #393939;
+        font-size: pxRem(24);
+        line-height: pxRem(46);
+        text-align: center;
+        display: block;
+        width: 100%;
+      }
+      .cloth-price {
+        width: 100%;
+        line-height: pxRem(44);
+        display: flex;
+        justify-content: space-between;
+        font-size: pxRem(24);
+        span {
+          color: #d51113;
+        }
+        del {
+          color: #878785;
+        }
+      }
+    }
+  }
+
+}
+
+
+

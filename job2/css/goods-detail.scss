@@ -1,0 +1,27 @@
+$fontSize:64;
+@function pxRem($px){
+  @return $px/$fontSize + rem;
+}
+
+
+.container{
+  width: pxRem(640);
+  .goods-details{
+    border-top: pxRem(1) solid #9a9fa5;
+    padding-top: pxRem(85);
+    .details-content{
+      padding:0 pxRem(31);
+      img{
+        width: pxRem(578);
+        height: pxRem(476);
+      }
+      p{
+        padding-top: pxRem(9);
+        line-height: pxRem(34);
+        font-size: pxRem(24);
+        color: #8b8b8b;
+        padding-left: pxRem(6);
+      }
+    }
+  }
+}

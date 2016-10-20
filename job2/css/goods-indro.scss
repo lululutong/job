@@ -1,0 +1,148 @@
+$fontSize:64;
+@function pxRem($px){
+  @return $px/$fontSize + rem;
+}
+
+
+.container{
+  width: pxRem(640);
+  font-family: "Microsoft YaHei";
+  .pic{
+    width: pxRem(640);
+    height: pxRem(364);
+    border: pxRem(1) solid #9a9fa5;
+    display: flex;
+    justify-content: flex-start;
+    padding-top:pxRem(85);
+    img{
+      display: block;
+      border: none;
+    }
+    img:nth-of-type(1){
+      width: pxRem(174);
+      height: pxRem(364);
+    }
+    img:nth-of-type(2){
+      width: pxRem(291);
+      height: pxRem(364);
+    }
+    img:nth-of-type(3){
+      width: pxRem(175);
+      height: pxRem(364);
+    }
+  }
+  .goods-indro{
+    width: pxRem(615);
+    height: pxRem(215);
+    background-color: #f3eff0;
+    position: relative;
+    padding-top: pxRem(57);
+    padding-left: pxRem(25);
+    .controls{
+      position: absolute;
+      width: pxRem(96);
+      height: pxRem(40);
+      background-color: #bcbcbc;
+      border-radius: pxRem(20);
+      top: pxRem(15);
+      left: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: pxRem(-20);
+      span{
+        width: pxRem(12);
+        height: pxRem(12);
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #969696;
+        float: left;
+      }
+      span+span{
+        margin-left: pxRem(5);
+      }
+      span.active{
+        background-color: #e9e9e9;
+      }
+
+    }
+    .goods-name{
+      font-size: pxRem(30);
+      line-height: pxRem(56);
+      color: #464646;
+    }
+    .goods-price{
+      line-height: pxRem(50);
+      font-size: pxRem(24);
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      span{
+        color: #bb0b54;
+        margin-right: pxRem(28);
+        font-weight: bold;
+      }
+      del{
+        color: #464445;
+        font-weight: bold;
+      }
+    }
+    .goods-buys{
+      line-height: pxRem(60);
+      font-size: pxRem(30);
+      color: #464646;
+    }
+  }
+  .goods-indro-href{
+    width: pxRem(616);
+    height: pxRem(100);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: pxRem(24);
+    span:nth-of-type(1){
+      width: pxRem(34);
+      height: pxRem(34);
+      display: inline-block;
+      background:url("../images/i.png") no-repeat left center;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+    p{
+      color: #656565;
+      font-size: pxRem(28);
+      padding-left: pxRem(28);
+      padding-right: pxRem(329);
+    }
+    span:nth-of-type(2){
+      font-size: pxRem(18);
+      color: #797979;
+      font-family: "SimHei";
+      font-weight: bold;
+    }
+  }
+  .join-shopcart{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: pxRem(640);
+    height: pxRem(98);
+    background-color: #a3a3a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+      display: inline-block;
+      font-size: pxRem(29);
+      color: #f7f7f7;
+      width: pxRem(434);
+      height: pxRem(78);
+      background-color: #b72120;
+      border: pxRem(1) solid #920201;
+      text-align: center;
+      line-height: pxRem(78);
+      border-radius: pxRem(12)
+    }
+  }
+}

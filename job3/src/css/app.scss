@@ -534,9 +534,9 @@ $height:713;
     @include definefont(160,430,28,rgb(255,255,255));
   }
   p:nth-of-type(14){
-    @include definewhlb(wh,75,90,190,30,2);
+    @include definewhlb(wh,75,90,190,20,2);
     img{
-      animation:ciro 1s linear 8s 1;
+      animation:ciro 1.2s ease-out 7.2s 1;
     }
   }
 }

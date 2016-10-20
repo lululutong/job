@@ -1,0 +1,18 @@
+.container {
+  width: 10rem; }
+  .container .goods-details {
+    border-top: 0.01563rem solid #9a9fa5;
+    padding-top: 1.32813rem; }
+    .container .goods-details .details-content {
+      padding: 0 0.48438rem; }
+      .container .goods-details .details-content img {
+        width: 9.03125rem;
+        height: 7.4375rem; }
+      .container .goods-details .details-content p {
+        padding-top: 0.14063rem;
+        line-height: 0.53125rem;
+        font-size: 0.375rem;
+        color: #8b8b8b;
+        padding-left: 0.09375rem; }
+
+/*# sourceMappingURL=goods-detail.css.map */
