@@ -1,3 +1,254 @@
-
+@media all and (max-device-width: 435px) {
+  .container {
+    width: 10rem;
+    font-family: "Microsoft YaHei"; }
+    .container .top {
+      width: 10rem;
+      height: 1.3125rem;
+      background-color: #af1d1d;
+      border-top: 0.01563rem solid #c92b2a;
+      text-align: center;
+      font-size: 0.5625rem;
+      font-family: "Microsoft YaHei";
+      color: #ffffff;
+      line-height: 1.3125rem;
+      position: fixed;
+      left: 0;
+      top: 0; }
+      .container .top .btn {
+        width: 1.625rem;
+        height: 0.84375rem;
+        position: absolute;
+        right: 0.3125rem;
+        top: 0.20313rem;
+        border-radius: 0.25rem; }
+        .container .top .btn img {
+          width: 1.625rem;
+          height: 0.84375rem; }
+      .container .top span {
+        position: absolute;
+        left: 0.5rem;
+        font-size: 1rem;
+        top: 0;
+        font-family: "SimSun"; }
+    .container .item {
+      width: 9.32813rem;
+      height: 0.89063rem;
+      background-color: #9a9fa5;
+      padding-left: 0.67188rem;
+      position: fixed;
+      left: 0;
+      top: 1.34375rem; }
+      .container .item .itemtb {
+        height: 0.48438rem;
+        position: relative;
+        width: 9.32813rem;
+        margin-top: 0.20313rem;
+        background: url("../images/tb.png") no-repeat;
+        background-size: cover; }
+        .container .item .itemtb:after {
+          position: absolute;
+          content: "";
+          border-top: 0.10938rem solid transparent;
+          border-left: 0.10938rem solid transparent;
+          border-right: 0.10938rem solid transparent;
+          border-bottom: 0.10938rem solid #ffffff;
+          left: 0.09375rem;
+          top: 0.48438rem; }
+    .container .list {
+      width: 10rem;
+      border-bottom: 0.01563rem solid #282828;
+      padding-top: 2.90625rem;
+      overflow: hidden; }
+      .container .list li {
+        padding: 0 0.57813rem;
+        width: 3.84375rem;
+        margin-bottom: 0.40625rem;
+        float: left; }
+        .container .list li img {
+          -webkit-box-shadow: 0 0 0.07813rem 0.03125rem rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 0 0 0.07813rem 0.03125rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 0.07813rem 0.03125rem rgba(0, 0, 0, 0.2);
+          margin-bottom: 0.15625rem;
+          width: 3.8125rem;
+          height: 3.8125rem; }
+        .container .list li .cloth-name {
+          color: #393939;
+          font-size: 0.375rem;
+          line-height: 0.71875rem;
+          text-align: center;
+          display: block;
+          width: 100%; }
+        .container .list li .cloth-price {
+          width: 100%;
+          line-height: 0.6875rem;
+          display: flex;
+          justify-content: space-between;
+          font-size: 0.375rem; }
+          .container .list li .cloth-price span {
+            color: #d51113; }
+          .container .list li .cloth-price del {
+            color: #878785; }
+    .container #bottom .nav {
+      height: 1.5rem;
+      border-top: 0.01563rem solid #636363;
+      background-color: #484850;
+      position: fixed;
+      left: 0;
+      bottom: 0; }
+      .container #bottom .nav li {
+        float: left;
+        width: 2rem;
+        height: 1.375rem;
+        text-align: center;
+        padding-top: 0.125rem;
+        position: relative; }
+        .container #bottom .nav li img {
+          width: 0.75rem;
+          height: 0.78125rem; }
+        .container #bottom .nav li span {
+          color: #fff;
+          font-size: 0.375rem;
+          display: block; }
+        .container #bottom .nav li p {
+          border-top: 0.07813rem solid #e4366b;
+          width: 2rem;
+          height: 0;
+          left: 0;
+          top: -0.03125rem;
+          position: absolute;
+          display: none; }
+        .container #bottom .nav li.hover p {
+          display: block; } }
+@media all and (min-device-width: 436px) {
+  .container {
+    width: 1024px;
+    font-family: "Microsoft YaHei"; }
+    .container .top {
+      width: 1024px;
+      height: 54px;
+      background-color: #af1d1d;
+      border-top: 1px solid #c92b2a;
+      text-align: center;
+      font-size: 24px;
+      font-family: "Microsoft YaHei";
+      color: #ffffff;
+      line-height: 52px;
+      position: fixed;
+      left: 0;
+      top: 0; }
+      .container .top .btn {
+        width: 65px;
+        height: 35px;
+        position: absolute;
+        right: 15px;
+        top: 6px;
+        border-radius: 8px; }
+        .container .top .btn img {
+          width: 65px;
+          height: 35px; }
+      .container .top span {
+        position: absolute;
+        left: 32px;
+        font-size: 64px;
+        top: 0;
+        font-family: "SimSun"; }
+    .container .item {
+      width: 180px;
+      height: 658px;
+      background-color: #9a9fa5;
+      padding-left: 0;
+      position: fixed;
+      left: 0;
+      top: 56px; }
+      .container .item:after {
+        position: absolute;
+        content: "";
+        border-top: 7px solid transparent;
+        border-left: 7px solid transparent;
+        border-right: 7px solid #ffffff;
+        border-bottom: 7px solid transparent;
+        right: 0;
+        top: 22px; }
+      .container .item .itemtb {
+        height: 658px;
+        position: relative;
+        width: 149px;
+        background: url("../images/tbtwo.png") no-repeat; }
+    .container .list {
+      width: 844px;
+      border-bottom: 1px solid #282828;
+      border-top: 1px solid #a0aab3;
+      margin-top: 55px;
+      padding-left: 180px;
+      overflow: hidden; }
+      .container .list li {
+        padding: 20px;
+        width: 236px;
+        float: left;
+        padding-bottom: 0; }
+        .container .list li img {
+          -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+          margin-bottom: 8px;
+          width: 236px;
+          height: 236px; }
+        .container .list li .cloth-name {
+          color: #393939;
+          font-size: 24px;
+          line-height: 42px;
+          text-align: center;
+          display: block;
+          width: 100%; }
+        .container .list li .cloth-price {
+          width: 100%;
+          line-height: 42px;
+          display: flex;
+          justify-content: space-between;
+          font-size: 24px; }
+          .container .list li .cloth-price span {
+            color: #d51113; }
+          .container .list li .cloth-price del {
+            color: #878785; }
+    .container #bottom .nav {
+      width: 1024px;
+      height: 52px;
+      border-top: 1px solid #636363;
+      background-color: #484850;
+      position: fixed;
+      left: 0;
+      bottom: 0; }
+      .container #bottom .nav li:nth-last-child(1) {
+        display: none; }
+      .container #bottom .nav li {
+        float: left;
+        width: 60px;
+        height: 52px;
+        text-align: center;
+        padding-top: 8px;
+        position: relative; }
+        .container #bottom .nav li img {
+          width: 24px;
+          height: 24px;
+          z-index: 4; }
+        .container #bottom .nav li span {
+          color: #fff;
+          font-size: 12px;
+          display: block;
+          z-index: 4; }
+        .container #bottom .nav li .glyphicon {
+          z-index: 4; }
+        .container #bottom .nav li p {
+          width: 60px;
+          height: 55px;
+          left: 0;
+          top: 0;
+          position: absolute;
+          display: none;
+          z-index: -1;
+          background-color: #af1513; }
+        .container #bottom .nav li.hover p {
+          display: block; } }
 
 /*# sourceMappingURL=pad.css.map */
