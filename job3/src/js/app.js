@@ -10,7 +10,7 @@
         onSlideChangeEnd: function(swiper){
             swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
         }
-    })
+    });
 
         var music = document.querySelector(".music");
         var musicGif = document.querySelector(".music-gif");
