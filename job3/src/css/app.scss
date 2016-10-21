@@ -541,7 +541,7 @@ $height:713;
   p:nth-of-type(14){
     @include definewhlb(wh,75,90,190,20,2);
     img{
-      animation:ciro 1.5s linear 7.2s infinite;
+      animation:ciro 1.5s linear 7.2s 1;
       -webkit-animation-fill-mode: both;
       animation-fill-mode: both;
     }
