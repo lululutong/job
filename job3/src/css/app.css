@@ -200,7 +200,9 @@ html, body {
     .box-1 p:nth-of-type(14) img {
       width: 100%; }
     .box-1 p:nth-of-type(14) img {
-      animation: ciro 1.3s ease-out 2.6s 1; }
+      animation: ciro 1.3s ease-out 2.6s 1;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both; }
   .box-1 p:nth-of-type(15) {
     left: 5.8125rem;
     top: 10.03125rem;
@@ -210,7 +212,9 @@ html, body {
     .box-1 p:nth-of-type(15) img {
       width: 100%; }
     .box-1 p:nth-of-type(15) img {
-      animation: ciro 1.3s ease-out 2.8s 1; }
+      animation: ciro 1.3s ease-out 2.8s 1;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both; }
   .box-1 p:nth-of-type(16) {
     left: 3.125rem;
     top: 12.1875rem;
@@ -673,12 +677,13 @@ html, body {
     .box-5 p:nth-of-type(10) img {
       width: 100%; }
   .box-5 p:nth-of-type(11) {
-    left: -0.22222%;
+    left: 0%;
     top: 70.12623%;
-    width: 101.77778%;
+    width: 99.55556%;
     height: 21.73913%;
     position: absolute;
-    background: url("../images/2416db4b-b00b-4538-88fb-76789f0b4758-9062.png") no-repeat center; }
+    background: url("../images/2416db4b-b00b-4538-88fb-76789f0b4758-9062.png") no-repeat center;
+    background-size: cover; }
     .box-5 p:nth-of-type(11) img {
       width: 100%; }
   .box-5 p:nth-of-type(12) {
@@ -703,6 +708,8 @@ html, body {
     .box-5 p:nth-of-type(14) img {
       width: 100%; }
     .box-5 p:nth-of-type(14) img {
-      animation: ciro 1.2s ease-out 7.2s 1; }
+      animation: ciro 1.5s linear 7.2s infinite;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both; }
 
 /*# sourceMappingURL=app.css.map */

@@ -234,12 +234,16 @@ $height:713;
     @include definewhlt(lt,40,40,420,600);
     img{
       animation: ciro 1.3s ease-out 2.6s 1;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
     }
   }
   p:nth-of-type(15) {
     @include definewhlt(lt,30,30,372,642);
     img{
       animation: ciro 1.3s ease-out 2.8s 1;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
     }
   }
   p:nth-of-type(16) {
@@ -524,8 +528,9 @@ $height:713;
     @include definewhlt(wh,410,135,25,390);
   }
   p:nth-of-type(11){
-    @include definewhlt(wh,458,155,-1,500);
+    @include definewhlt(wh,448,155,0,500);
     background: url("../images/2416db4b-b00b-4538-88fb-76789f0b4758-9062.png") no-repeat center;
+    background-size: cover;
   }
   p:nth-of-type(12){
     @include definefont(70,410,28,rgb(255,255,255));
@@ -536,7 +541,9 @@ $height:713;
   p:nth-of-type(14){
     @include definewhlb(wh,75,90,190,20,2);
     img{
-      animation:ciro 1.2s ease-out 7.2s 1;
+      animation:ciro 1.5s linear 7.2s infinite;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
     }
   }
 }
