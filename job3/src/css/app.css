@@ -199,10 +199,6 @@ html, body {
     position: absolute; }
     .box-1 p:nth-of-type(14) img {
       width: 100%; }
-    .box-1 p:nth-of-type(14) img {
-      animation: ciro 1.3s ease-out 2.6s 1;
-      -webkit-animation-fill-mode: both;
-      animation-fill-mode: both; }
   .box-1 p:nth-of-type(15) {
     left: 5.8125rem;
     top: 10.03125rem;
@@ -211,10 +207,6 @@ html, body {
     position: absolute; }
     .box-1 p:nth-of-type(15) img {
       width: 100%; }
-    .box-1 p:nth-of-type(15) img {
-      animation: ciro 1.3s ease-out 2.8s 1;
-      -webkit-animation-fill-mode: both;
-      animation-fill-mode: both; }
   .box-1 p:nth-of-type(16) {
     left: 3.125rem;
     top: 12.1875rem;
@@ -707,9 +699,5 @@ html, body {
     z-index: 2; }
     .box-5 p:nth-of-type(14) img {
       width: 100%; }
-    .box-5 p:nth-of-type(14) img {
-      animation: ciro 1.5s linear 7.2s 1;
-      -webkit-animation-fill-mode: both;
-      animation-fill-mode: both; }
 
 /*# sourceMappingURL=app.css.map */

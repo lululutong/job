@@ -232,19 +232,9 @@ $height:713;
   }
   p:nth-of-type(14) {
     @include definewhlt(lt,40,40,420,600);
-    img{
-      animation: ciro 1.3s ease-out 2.6s 1;
-      -webkit-animation-fill-mode: both;
-      animation-fill-mode: both;
-    }
   }
   p:nth-of-type(15) {
     @include definewhlt(lt,30,30,372,642);
-    img{
-      animation: ciro 1.3s ease-out 2.8s 1;
-      -webkit-animation-fill-mode: both;
-      animation-fill-mode: both;
-    }
   }
   p:nth-of-type(16) {
     @include definewhlt(lt,18,28,200,780);
@@ -540,11 +530,6 @@ $height:713;
   }
   p:nth-of-type(14){
     @include definewhlb(wh,75,90,190,20,2);
-    img{
-      animation:ciro 1.5s linear 7.2s 1;
-      -webkit-animation-fill-mode: both;
-      animation-fill-mode: both;
-    }
   }
 }
 
